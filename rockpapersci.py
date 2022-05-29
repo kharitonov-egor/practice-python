@@ -13,9 +13,7 @@ print(f"Thanks for picking {human_choice}!")
 print(f"Computer has picked {computer_choice}!")
 
 if computer_choice == human_choice:
-
     print("You have a tie!")
-
 elif computer_choice == "r" and human_choice == "p":
     print("You win!")
 elif computer_choice == "r" and human_choice == "s":
