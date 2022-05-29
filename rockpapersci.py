@@ -5,7 +5,9 @@ list_moves = ("r","p","s")
 computer_choice = random.choice(list_moves)
 
 human_choice = input("Please input r, p or s: ")
-
+#test
+#test2
+#lskd,asd"
 if human_choice not in list_moves:
     print("Incorrect choise, my friend!")
 
