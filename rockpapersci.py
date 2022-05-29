@@ -9,6 +9,9 @@ human_choice = input("Please input rock, paper or scissors: ")
 if human_choice not in list_moves:
     print("Incorrect choise, my friend!")
 
+print(f"Thanks for picking {human_choice}!")
+print(f"Computer has picked {computer_choice}!")
+
 if computer_choice == human_choice:
     print("You have a tie!")
 elif computer_choice == "rock" and human_choice == "paper":
